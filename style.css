@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    top: 124px;
+    left: 122px;
+}
+
+header{
+    padding-top: 124px;
+}
+
+.header-div{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    color: #737373;
+}
+
+h1{
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 50px;
+    color: black;
+    padding-top: 189px;
+}
+
+.sct-btn{
+    
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 16px;
+    background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);;
+    color: white;
+    border-radius: 7px;
+    margin-top: 58px;
+}
+
+.sct-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+h3{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+}
+
+span{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    background: #B90160;
+    background: linear-gradient(to right, #B90160 0%, #2E3192 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+h4{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+p{
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #767676;
+}
+
+.cards-parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 32%;
+    margin: 100px 0px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.card img{
+    width: 100%;
+}
+.card-text{
+    padding: 22px;
+}
+
+.section{
+     background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);;
+     padding: 98px 0px 72px 0px;
+}
+
+.p{
+    color: #000000;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+}
+
+.div-card{
+    width: 436px;
+height: 187px;
+border-radius: 9px;
+background-color: white;
+padding: 63px 40px;
+position: relative;
+}
+
+.cards-parents{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.div-card img{
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer{
+    padding-top: 149px;
+    padding-bottom: 68px;
+}
+
+h6{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.footer-parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
